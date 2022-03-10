@@ -6,7 +6,7 @@ import { GenreResponseProps } from "../App"
 interface GenreProps {
   genrelist: GenreResponseProps[];
   genreid: number;
-  handleclick: Function
+  handleclick: (id:number) => void
 }
 
 
